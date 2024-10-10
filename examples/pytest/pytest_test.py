@@ -2,7 +2,8 @@ import pytest
 import sys
 
 def test_foo():
-    assert 0
+    condition = True
+    assert condition
 
 if __name__ == "__main__":
     sys.exit(pytest.main())

@@ -2,14 +2,6 @@ load("@rules_python//python:defs.bzl", "py_test")
 
 
 py_test(
-    name = "pytest_test",
-    srcs = ["pytest_test.py"],
-    deps = [
-        "@pypi//pytest",
-    ],
-)
-
-py_test(
     name = "unit_test",
     srcs = ["unit_test.py"],
     deps = [
